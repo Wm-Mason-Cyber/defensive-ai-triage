@@ -1,0 +1,6 @@
+SIEM ALERT  #4518   Severity: LOW   Rule: "Multiple SSH failures followed by success"
+Host:       comet-ssh01 (Ubuntu 24.04 LTS — staff SSH jump box)
+Window:     2026-10-15 07:52 - 07:55 EDT
+Trigger:    >= 3 failures then a success for the same account within 10 minutes
+Context:    10.42.8.0/24 is the teacher workroom VLAN. "mrice" is a staff account.
+Files:      journal.txt  (output of: journalctl -u ssh -u sudo -o short-iso --since "07:50")

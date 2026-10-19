@@ -1,0 +1,17 @@
+2026-10-18T03:12:51.220114-04:00 comet-ssh01 sshd-session[77012]: Accepted password for mrice from 192.0.2.88 port 50879 ssh2
+2026-10-18T03:12:51.223507-04:00 comet-ssh01 sshd-session[77012]: pam_unix(sshd:session): session opened for user mrice(uid=1004) by mrice(uid=0)
+2026-10-18T03:12:51.228999-04:00 comet-ssh01 systemd-logind[701]: New session 131 of user mrice.
+2026-10-18T03:13:42.191387-04:00 comet-ssh01 sudo:    mrice : TTY=pts/0 ; PWD=/home/mrice ; USER=root ; COMMAND=/usr/sbin/useradd -m -s /bin/bash -G sudo sysupdate
+2026-10-18T03:13:42.197696-04:00 comet-ssh01 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by mrice(uid=1004)
+2026-10-18T03:13:42.214997-04:00 comet-ssh01 useradd[77140]: new group: name=sysupdate, GID=1050
+2026-10-18T03:13:42.260557-04:00 comet-ssh01 useradd[77140]: new user: name=sysupdate, UID=1050, GID=1050, home=/home/sysupdate, shell=/bin/bash, from=/dev/pts/1
+2026-10-18T03:13:42.281070-04:00 comet-ssh01 useradd[77140]: add 'sysupdate' to group 'sudo'
+2026-10-18T03:13:42.271640-04:00 comet-ssh01 useradd[77140]: add 'sysupdate' to shadow group 'sudo'
+2026-10-18T03:13:53.089491-04:00 comet-ssh01 sudo: pam_unix(sudo:session): session closed for user root
+2026-10-18T03:14:09.661774-04:00 comet-ssh01 sudo:    mrice : TTY=pts/0 ; PWD=/home/mrice ; USER=root ; COMMAND=/usr/bin/passwd sysupdate
+2026-10-18T03:14:09.661955-04:00 comet-ssh01 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by mrice(uid=1004)
+2026-10-18T03:14:15.543608-04:00 comet-ssh01 passwd[77152]: pam_unix(passwd:chauthtok): password changed for sysupdate
+2026-10-18T03:14:23.962196-04:00 comet-ssh01 sudo: pam_unix(sudo:session): session closed for user root
+2026-10-18T03:14:46.935319-04:00 comet-ssh01 sudo:    mrice : TTY=pts/0 ; PWD=/home/mrice ; USER=root ; COMMAND=/usr/bin/truncate -s 0 /var/log/wtmp
+2026-10-18T03:15:08.713631-04:00 comet-ssh01 sshd-session[77018]: Disconnected from user mrice 192.0.2.88 port 50879
+2026-10-18T03:15:08.716455-04:00 comet-ssh01 sshd-session[77012]: pam_unix(sshd:session): session closed for user mrice

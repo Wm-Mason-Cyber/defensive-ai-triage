@@ -1,0 +1,6 @@
+SIEM ALERT  #4560   Severity: LOW   Rule: "High 404 rate (site-wide)"
+Host:       comet-web01 (nginx — serves cyber.comet-tech.org)
+Window:     2026-10-19 08:00 - 08:03 EDT  (first bell — students arriving)
+Trigger:    > 15 HTTP 404 responses in 5 minutes
+Context:    66.249.66.0/24 belongs to Google. 216.144.248.0/24 is the district's UptimeRobot monitor.
+Files:      access.log  (nginx "combined" format)

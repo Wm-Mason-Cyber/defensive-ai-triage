@@ -1,0 +1,7 @@
+SIEM ALERT  #4551   Severity: LOW   Rule: "Elevated HTTP 401 rate"
+Host:       comet-portal01 (nginx reverse proxy in front of the student portal API)
+Window:     2026-10-18 04:00 - 04:02 EDT
+Trigger:    > 25 HTTP 401 responses site-wide in 5 minutes
+Note:       No single IP made more than 3 requests, so the per-IP brute-force rule did NOT fire.
+            nginx access logs do not record POST bodies, so usernames are not visible here.
+Files:      access.log  (nginx "combined" format)

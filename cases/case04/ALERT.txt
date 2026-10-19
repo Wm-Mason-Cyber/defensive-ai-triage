@@ -1,0 +1,6 @@
+SIEM ALERT  #4533   Severity: LOW   Rule: "High 404 rate from single source"
+Host:       comet-web01 (nginx 1.24 on Ubuntu 24.04 — serves cyber.comet-tech.org)
+Window:     2026-10-16 13:59 - 14:05 EDT
+Trigger:    > 15 HTTP 404 responses to one client in 60 seconds
+Files:      access.log  (from /var/log/nginx/access.log, nginx "combined" format)
+            error.log   (from /var/log/nginx/error.log)

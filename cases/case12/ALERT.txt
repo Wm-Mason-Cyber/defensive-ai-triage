@@ -1,0 +1,7 @@
+SIEM ALERT  #4555   Severity: INFO   Rule: "New local user account created"
+Host:       comet-ssh01 (Debian 13 — staff SSH jump box)
+Window:     2026-10-18 03:12 - 03:16 EDT  (Saturday)
+Trigger:    useradd executed
+Context:    Staff normally connect from 10.42.0.0/16 (school) or the district VPN, 10.99.0.0/16.
+            mrice was at a conference out of state this weekend.
+Files:      auth.log  (from /var/log/auth.log)

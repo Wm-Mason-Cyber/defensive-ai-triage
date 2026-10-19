@@ -1,0 +1,7 @@
+SIEM ALERT  #4529   Severity: MEDIUM   Rule: "sudo: user NOT in sudoers"
+Host:       comet-lab-p3 (Period 3 shared classroom container, Ubuntu 24.04)
+Window:     2026-10-16 11:31 - 11:38 EDT  (during Period 3)
+Trigger:    >= 3 denied sudo attempts by one account in 15 minutes
+Context:    "kpatel" is a student account. "mrice" is the teacher's account.
+            Today's assigned lab did NOT require sudo.
+Files:      journal.txt  (output of: journalctl _COMM=sudo + _COMM=su -o short-iso)

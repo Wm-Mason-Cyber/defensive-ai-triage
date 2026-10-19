@@ -1,0 +1,8 @@
+2026-10-16T11:31:22-0400 comet-lab-p3 sudo[22819]:   kpatel : user NOT in sudoers ; TTY=pts/1 ; PWD=/home/kpatel ; USER=root ; COMMAND=/usr/bin/apt install nmap
+2026-10-16T11:31:53-0400 comet-lab-p3 sudo[22829]:   kpatel : user NOT in sudoers ; TTY=pts/1 ; PWD=/home/kpatel ; USER=root ; COMMAND=/bin/bash
+2026-10-16T11:32:12-0400 comet-lab-p3 sudo[22842]:   kpatel : user NOT in sudoers ; TTY=pts/1 ; PWD=/home/kpatel ; USER=root ; COMMAND=/usr/bin/su -
+2026-10-16T11:32:48-0400 comet-lab-p3 sudo[22858]:   kpatel : user NOT in sudoers ; TTY=pts/1 ; PWD=/home/kpatel ; USER=root ; COMMAND=/usr/bin/cat /etc/shadow
+2026-10-16T11:33:26-0400 comet-lab-p3 sudo[22879]:   kpatel : user NOT in sudoers ; TTY=pts/1 ; PWD=/home/kpatel ; USER=root ; COMMAND=/usr/bin/passwd mrice
+2026-10-16T11:34:19-0400 comet-lab-p3 su[22890]: pam_unix(su-l:auth): authentication failure; logname=kpatel uid=1032 euid=0 tty=/dev/pts/1 ruser=kpatel rhost=  user=root
+2026-10-16T11:34:22-0400 comet-lab-p3 su[22890]: FAILED SU (to root) kpatel on pts/1
+2026-10-16T11:35:01-0400 comet-lab-p3 sudo[22930]:   kpatel : user NOT in sudoers ; TTY=pts/1 ; PWD=/tmp ; USER=root ; COMMAND=/tmp/pwnkit

@@ -1,0 +1,8 @@
+SIEM ALERT  #4475   Severity: LOW   Rule: "SSH failures across many accounts"
+Host:       comet-mail (Rocky Linux 8 — legacy staff mail relay)
+Window:     2026-10-13 12:05 - 12:16 EDT
+Trigger:    One source failed logins for >= 10 DIFFERENT accounts in 15 minutes
+Note:       On RHEL-family systems the auth log lives at /var/log/secure, not /var/log/auth.log.
+Context:    IT reset every staff password last week to the temporary password "Comet2026!" and
+            asked staff to change it at first login.
+Files:      secure  (from /var/log/secure)

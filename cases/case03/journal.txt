@@ -1,0 +1,18 @@
+-- Boot 3f9c1e0a77d44b6c9a2b8e4c21d0f6aa --
+2026-10-15T07:52:11-0400 comet-ssh01 sshd[10233]: Connection from 10.42.8.31 port 55553 on 10.42.1.5 port 22 rdomain ""
+2026-10-15T07:52:18-0400 comet-ssh01 sshd[10233]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.42.8.31  user=mrice
+2026-10-15T07:52:20-0400 comet-ssh01 sshd[10233]: Failed password for mrice from 10.42.8.31 port 55553 ssh2
+2026-10-15T07:52:27-0400 comet-ssh01 sshd[10233]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.42.8.31  user=mrice
+2026-10-15T07:52:30-0400 comet-ssh01 sshd[10233]: Failed password for mrice from 10.42.8.31 port 55553 ssh2
+2026-10-15T07:52:34-0400 comet-ssh01 sshd[10233]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.42.8.31  user=mrice
+2026-10-15T07:52:36-0400 comet-ssh01 sshd[10233]: Failed password for mrice from 10.42.8.31 port 55553 ssh2
+2026-10-15T07:52:36-0400 comet-ssh01 sshd[10233]: Connection closed by authenticating user mrice 10.42.8.31 port 55553 [preauth]
+2026-10-15T07:52:58-0400 comet-ssh01 sshd[10240]: Connection from 10.42.8.31 port 41866 on 10.42.1.5 port 22 rdomain ""
+2026-10-15T07:53:04-0400 comet-ssh01 sshd[10240]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.42.8.31  user=mrice
+2026-10-15T07:53:06-0400 comet-ssh01 sshd[10240]: Failed password for mrice from 10.42.8.31 port 41866 ssh2
+2026-10-15T07:53:13-0400 comet-ssh01 sshd[10240]: Accepted password for mrice from 10.42.8.31 port 41866 ssh2
+2026-10-15T07:53:13-0400 comet-ssh01 sshd[10240]: pam_unix(sshd:session): session opened for user mrice(uid=1004) by mrice(uid=0)
+2026-10-15T07:53:13-0400 comet-ssh01 systemd-logind[701]: New session 88 of user mrice.
+2026-10-15T07:53:51-0400 comet-ssh01 sudo[10391]:    mrice : TTY=pts/2 ; PWD=/home/mrice ; USER=root ; COMMAND=/usr/bin/apt update
+2026-10-15T07:53:51-0400 comet-ssh01 sudo[10391]: pam_unix(sudo:session): session opened for user root(uid=0) by mrice(uid=1004)
+2026-10-15T07:54:08-0400 comet-ssh01 sudo[10391]: pam_unix(sudo:session): session closed for user root

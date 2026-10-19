@@ -1,0 +1,6 @@
+2026/10/17 19:30:00 [error] 1301#1301: *902224 limiting requests, excess: 10.205 by zone "perip", client: 203.0.113.50, server: cyber.comet-tech.org, request: "GET /?q=... HTTP/1.1", host: "cyber.comet-tech.org"
+2026/10/17 19:30:00 [error] 1301#1301: *902228 limiting requests, excess: 10.328 by zone "perip", client: 203.0.113.51, server: cyber.comet-tech.org, request: "GET /?q=... HTTP/1.1", host: "cyber.comet-tech.org"
+2026/10/17 19:30:00 [error] 1301#1301: *902232 limiting requests, excess: 10.031 by zone "perip", client: 203.0.113.52, server: cyber.comet-tech.org, request: "GET /?q=... HTTP/1.1", host: "cyber.comet-tech.org"
+2026/10/17 19:30:00 [error] 1301#1301: *902236 limiting requests, excess: 10.088 by zone "perip", client: 203.0.113.50, server: cyber.comet-tech.org, request: "GET /?q=... HTTP/1.1", host: "cyber.comet-tech.org"
+2026/10/17 19:30:00 [error] 1301#1301: *902240 limiting requests, excess: 10.609 by zone "perip", client: 203.0.113.51, server: cyber.comet-tech.org, request: "GET /?q=... HTTP/1.1", host: "cyber.comet-tech.org"
+2026/10/17 19:30:01 [error] 1301#1301: *902244 limiting requests, excess: 10.233 by zone "perip", client: 203.0.113.52, server: cyber.comet-tech.org, request: "GET /?q=... HTTP/1.1", host: "cyber.comet-tech.org"

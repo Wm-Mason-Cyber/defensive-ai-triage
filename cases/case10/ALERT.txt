@@ -1,0 +1,7 @@
+SIEM ALERT  #4512   Severity: MEDIUM   Rule: "Directory traversal pattern in URI"
+Host:       comet-web01 (nginx + PHP-FPM — serves cyber.comet-tech.org)
+Window:     2026-10-15 13:12 - 13:19 EDT
+Trigger:    URI contains "../" or encoded equivalent
+Note:       The 400 response at the end was rejected by nginx itself before reaching PHP.
+Files:      access.log  (nginx "combined" format)
+            error.log   (from /var/log/nginx/error.log)

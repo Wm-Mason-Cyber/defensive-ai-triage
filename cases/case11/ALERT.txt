@@ -1,0 +1,7 @@
+SIEM ALERT  #4547   Severity: HIGH   Rule: "Request rate anomaly"
+Host:       comet-web01 (nginx — serves cyber.comet-tech.org)
+Window:     2026-10-17 19:30 EDT  (Friday evening, school closed)
+Trigger:    > 30 requests/second (normal Friday evening baseline: ~0.2 req/s)
+Note:       nginx has "limit_req zone=perip burst=10" configured. Excess requests get HTTP 503.
+Files:      access.log  (nginx "combined" format — excerpt, 1.5 seconds of traffic)
+            error.log   (from /var/log/nginx/error.log)

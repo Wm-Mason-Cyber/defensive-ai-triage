@@ -1,0 +1,6 @@
+SIEM ALERT  #4502   Severity: MEDIUM   Rule: "Excessive SSH authentication failures"
+Host:       comet-web02 (Debian 13 "trixie" — public web server, systemd + rsyslog)
+Window:     2026-10-14 23:41 - 23:46 EDT
+Trigger:    > 10 failed SSH logins from a single source in 5 minutes
+Note:       Account "deploy" is used by the web team's deployment script.
+Files:      auth.log  (from /var/log/auth.log)

@@ -1,0 +1,5 @@
+SIEM ALERT  #4420   Severity: LOW   Rule: "Firewall: many distinct destination ports blocked"
+Host:       comet-ssh01 (Ubuntu 22.04, UFW firewall — only port 22 is allowed in)
+Window:     2026-10-12 01:07 EDT
+Trigger:    > 20 distinct blocked destination ports from one source in 60 seconds
+Files:      kern.log  (from /var/log/kern.log — legacy syslog format, kernel ring-buffer timestamps in [brackets])
