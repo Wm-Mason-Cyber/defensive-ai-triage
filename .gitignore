@@ -1,0 +1,17 @@
+# ── Teacher-only materials: NEVER push to the student repo ──────────────────
+# Answer key, facilitation guide, and captured AI runs.
+TEACHER_KEY.md
+teacher/
+
+# The case generator and the batch runner reveal every answer (they build the
+# attacks and comment the ground truth). Keep them out of the student repo.
+tools/
+
+# Instructor design doc (contains example rosters/credentials).
+classroom-framework-synopsis.md*
+
+# ── Junk ────────────────────────────────────────────────────────────────────
+*:Zone.Identifier
+__pycache__/
+*.pyc
+.DS_Store
